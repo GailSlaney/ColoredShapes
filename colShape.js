@@ -95,10 +95,10 @@ img.addEventListener('click', (e) => {
 });
 
 //what happens when page initially opens
-let randomInt;
-let shapeImage;
-let shapeColor;
-let shapeName;
+let randomInt,
+    shapeImage,
+    shapeColor,
+    shapeName;
 getRandomInt();
 console.log(randomInt);
 //initial button click called when form opens
